@@ -980,10 +980,6 @@ nav.links-style {
         background-image: url(../images/banner-mobile.jpg);
     }
 
-    .links-style {
-        margin-left: 90%;
-    }
-
     .menu-button::before, .menu-button::after {
         content: "";
         width: 100%;
@@ -1132,8 +1128,12 @@ nav.links-style {
         margin: 0;
         padding-right: 15px;
         padding-left: 15px;
-        width: calc(100% - 30px);
     }
+
+    .button-menu {
+        margin-left: 80%
+    }
+}
 
     .header-aside {
         font-size: 16px;
