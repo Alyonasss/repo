@@ -1062,6 +1062,7 @@ nav.links-style {
     .trends-article {
         width: 100%;
         flex: 0 0 auto;
+        margin-left: 0;
     }
 
     .trends-article:nth-child(n+1) {
