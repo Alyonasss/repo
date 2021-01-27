@@ -593,7 +593,9 @@ nav.links-style {
 
 .products-article-wrapper {
     display: flex;
-    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*width: 100%;*/
 }
 
 .products-article {
@@ -940,7 +942,10 @@ nav.links-style {
     }
 
     .products-article-wrapper {
+        display: flex;
+        flex-direction: row;
         flex-wrap: wrap;
+
     }
 
     .products-article {
@@ -949,11 +954,6 @@ nav.links-style {
     }
 
     .products-article:nth-child(odd) {
-        margin-left: 0;
-        margin-right: 30px;
-    }
-
-    .products-article:nth-child(even) {
         margin-left: 0;
         margin-right: 30px;
     }
@@ -1134,7 +1134,6 @@ nav.links-style {
     .button-menu {
         margin-left: 80%
     }
-}
 
     .header-aside {
         font-size: 16px;
@@ -1176,3 +1175,4 @@ nav.links-style {
         margin-right: auto;
         margin-left: auto;
     }
+}
