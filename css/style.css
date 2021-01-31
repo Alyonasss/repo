@@ -609,6 +609,17 @@ nav.links-style {
     box-sizing: border-box;
 }
 
+.products-article:nth-child(n+1) {
+    margin-left: 0;
+    margin-right: 30px;
+}
+
+.products-article-img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .products-text-block {
     display: flex;
     flex-direction: column;
